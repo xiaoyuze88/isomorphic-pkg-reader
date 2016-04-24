@@ -1,0 +1,39 @@
+{
+  "name": "isomorphic-pkg-reader",
+  "version": "0.0.1",
+  "description": "Read IOS/Android pkg's(.apk/.ipa ) manifest info, for NodeJS/Webpack/Browserify.",
+  "browser": "./pkg-reader-browser.js",
+  "main": "./pkg-reader-node.js",
+  "scripts": {
+    "start": "node example/webpack-dev-server.js --history-api-fallback --hot --inline --progress --color --profile --display-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "html-webpack-plugin": "^2.16.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyuze88/isomorphic-pkg-reader.git"
+  },
+  "keywords": [
+    "Javascript",
+    "NodeJS",
+    "Browserify",
+    "WebPack",
+    ".apk",
+    ".ipa",
+    "manifest",
+    "parser"
+  ],
+  "author": "xiaoyuze88@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoyuze88/isomorphic-pkg-reader/issues"
+  },
+  "homepage": "https://github.com/xiaoyuze88/isomorphic-pkg-reader#readme"
+}
