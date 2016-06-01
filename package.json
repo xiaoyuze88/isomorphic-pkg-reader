@@ -1,20 +1,21 @@
 {
   "name": "isomorphic-pkg-reader",
-  "version": "0.0.1",
+  "version": "1.1.14",
   "description": "Read IOS/Android pkg's(.apk/.ipa ) manifest info, for NodeJS/Webpack/Browserify.",
-  "browser": "./pkg-reader-browser.js",
-  "main": "./pkg-reader-node.js",
   "scripts": {
-    "start": "node example/webpack-dev-server.js --history-api-fallback --hot --inline --progress --color --profile --display-modules",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./example/webpack.config.js & node ./example/server"
   },
   "devDependencies": {
+    "beta-dev-uploader": "^5.6.3",
+    "css-loader": "^0.15.5",
     "express": "^4.13.3",
-    "html-webpack-plugin": "^2.16.0",
-    "webpack": "^1.12.9",
-    "webpack-dev-middleware": "^1.6.1",
-    "webpack-dev-server": "^1.14.1",
-    "webpack-hot-middleware": "^2.10.0"
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.19.0",
+    "multer": "^1.1.0",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.14.1"
   },
   "repository": {
     "type": "git",
@@ -30,10 +31,28 @@
     "manifest",
     "parser"
   ],
-  "author": "xiaoyuze88@gmail.com",
+  "author": {
+    "name": "xiaoyuze88@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiaoyuze88/isomorphic-pkg-reader/issues"
   },
-  "homepage": "https://github.com/xiaoyuze88/isomorphic-pkg-reader#readme"
+  "homepage": "https://github.com/xiaoyuze88/isomorphic-pkg-reader#readme",
+  "dependencies": {
+    "buffer": "^4.6.0",
+    "bytebuffer": "^5.0.1",
+    "inherits": "^2.0.1",
+    "isomorphic-png.js": "^0.2.4",
+    "isomorphic-unzip": "^1.1.0",
+    "xmldom": "^0.1.22"
+  },
+  "maintainers": [
+    {
+      "name": "xiaoyuze88",
+      "email": "xiaoyuze88@gmail.com"
+    }
+  ],
+  "directories": {},
+  "readmeFilename": "README.md"
 }
