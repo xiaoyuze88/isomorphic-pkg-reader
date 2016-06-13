@@ -1,10 +1,62 @@
 {
-  "name": "isomorphic-pkg-reader",
-  "version": "1.1.14",
-  "description": "Read IOS/Android pkg's(.apk/.ipa ) manifest info, for NodeJS/Webpack/Browserify.",
-  "scripts": {
-    "start": "node ./example/webpack.config.js & node ./example/server"
+  "_args": [
+    [
+      "isomorphic-pkg-reader@./node_shrinkwrap/isomorphic-pkg-reader-1.1.14.tgz",
+      "/Users/xyz/Sites/tencent/beta2.0/beta2.0"
+    ],
+    [
+      "isomorphic-pkg-reader@1.1.15",
+      "/Users/xyz/Sites/tencent/beta2.0/beta2.0"
+    ]
+  ],
+  "_from": "isomorphic-pkg-reader@1.1.15",
+  "_id": "isomorphic-pkg-reader@1.1.15",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/isomorphic-pkg-reader",
+  "_nodeVersion": "4.4.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/isomorphic-pkg-reader-1.1.15.tgz_1465802840785_0.4714999026618898"
   },
+  "_npmUser": {
+    "email": "xiaoyuze88@gmail.com",
+    "name": "xiaoyuze88"
+  },
+  "_npmVersion": "3.8.2",
+  "_phantomChildren": {
+    "fd-slicer": "1.0.1",
+    "ieee754": "1.1.6"
+  },
+  "_requested": {
+    "name": "isomorphic-pkg-reader",
+    "raw": "isomorphic-pkg-reader@1.1.15",
+    "rawSpec": "1.1.15",
+    "scope": null,
+    "spec": "1.1.15",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_shrinkwrap": null,
+  "_spec": "isomorphic-pkg-reader@1.1.15",
+  "_where": "/Users/xyz/Sites/tencent/beta2.0/beta2.0",
+  "author": {
+    "name": "xiaoyuze88@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoyuze88/isomorphic-pkg-reader/issues"
+  },
+  "dependencies": {
+    "buffer": "^4.6.0",
+    "bytebuffer": "^5.0.1",
+    "inherits": "^2.0.1",
+    "isomorphic-png.js": "^0.2.4",
+    "isomorphic-unzip": "^1.1.0",
+    "xmldom": "^0.1.22"
+  },
+  "description": "Read IOS/Android pkg's(.apk/.ipa ) manifest info, for NodeJS/Webpack/Browserify.",
   "devDependencies": {
     "beta-dev-uploader": "^5.6.3",
     "css-loader": "^0.15.5",
@@ -17,10 +69,12 @@
     "webpack": "^1.9.11",
     "webpack-dev-server": "^1.14.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiaoyuze88/isomorphic-pkg-reader.git"
+  "directories": {},
+  "dist": {
+    "shasum": "c1e40c355e286eb9338006ff09649b37c7d20b95",
+    "tarball": "https://registry.npmjs.org/isomorphic-pkg-reader/-/isomorphic-pkg-reader-1.1.15.tgz"
   },
+  "homepage": "https://github.com/xiaoyuze88/isomorphic-pkg-reader#readme",
   "keywords": [
     "Javascript",
     "NodeJS",
@@ -31,28 +85,22 @@
     "manifest",
     "parser"
   ],
-  "author": {
-    "name": "xiaoyuze88@gmail.com"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xiaoyuze88/isomorphic-pkg-reader/issues"
-  },
-  "homepage": "https://github.com/xiaoyuze88/isomorphic-pkg-reader#readme",
-  "dependencies": {
-    "buffer": "^4.6.0",
-    "bytebuffer": "^5.0.1",
-    "inherits": "^2.0.1",
-    "isomorphic-png.js": "^0.2.4",
-    "isomorphic-unzip": "^1.1.0",
-    "xmldom": "^0.1.22"
-  },
   "maintainers": [
     {
-      "name": "xiaoyuze88",
-      "email": "xiaoyuze88@gmail.com"
+      "email": "xiaoyuze88@gmail.com",
+      "name": "xiaoyuze88"
     }
   ],
-  "directories": {},
-  "readmeFilename": "README.md"
+  "name": "isomorphic-pkg-reader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyuze88/isomorphic-pkg-reader.git"
+  },
+  "scripts": {
+    "start": "node ./example/webpack.config.js & node ./example/server"
+  },
+  "version": "1.1.15"
 }

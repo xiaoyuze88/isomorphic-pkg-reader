@@ -127,3 +127,9 @@ Basically this pkg reader can get everything the other readers could get, and it
 Don't worried about the efficiency in browser, it's all async by using WebWorkers(That means it required IE10+, and currently it's only async in the unzipping process).
 
 It's now working fine on our production environment, if you have any issue when using this, please make us know.
+
+## CHANGE LOG
+
+2016.6.13 `1.1.15`
+
+Fix some range error when parsing .apk resource map. 
