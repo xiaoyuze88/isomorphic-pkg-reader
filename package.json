@@ -101,5 +101,5 @@
   "scripts": {
     "start": "node ./example/webpack.config.js & node ./example/server"
   },
-  "version": "1.1.19"
+  "version": "1.1.20"
 }
