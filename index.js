@@ -1,16 +1,10 @@
 var ApkReader = require('./lib/ApkReader');
 var IpaReader = require('./lib/IpaReader');
-var PatchReader = require('./lib/PatchReader');
+var Reader = require('./lib/Reader');
 
 function PkgReader(path, extension, options) {
-  switch(extension) {
-    case 'ipa':
-      return new IpaReader(path, options);
-    case 'apk':
-      return new ApkReader(path, options);
-    case 'patch':
-      return new PatchReader(path, options);
-  }
+  return new (extension === 'ipa' ? IpaReader : ApkReader)(path, options);
 }
 
 module.exports = PkgReader;
+module.exports.Reader = Reader;
