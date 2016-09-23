@@ -1,52 +1,19 @@
 {
-  "_args": [
-    [
-      "isomorphic-pkg-reader@./node_shrinkwrap/isomorphic-pkg-reader-1.1.14.tgz",
-      "/Users/xyz/Sites/tencent/beta2.0/beta2.0"
-    ],
-    [
-      "isomorphic-pkg-reader@1.1.15",
-      "/Users/xyz/Sites/tencent/beta2.0/beta2.0"
-    ]
-  ],
-  "_from": "isomorphic-pkg-reader@1.1.15",
-  "_id": "isomorphic-pkg-reader@1.1.15",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/isomorphic-pkg-reader",
-  "_nodeVersion": "4.4.2",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/isomorphic-pkg-reader-1.1.15.tgz_1465802840785_0.4714999026618898"
+  "name": "@tencent/isomorphic-pkg-reader",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TencentWSRD/isomorphic-pkg-reader.git"
   },
-  "_npmUser": {
-    "email": "xiaoyuze88@gmail.com",
-    "name": "xiaoyuze88"
+  "scripts": {
+    "start": "node ./example/webpack.config.js & node ./example/server"
   },
-  "_npmVersion": "3.8.2",
-  "_phantomChildren": {
-    "fd-slicer": "1.0.1",
-    "ieee754": "1.1.6"
-  },
-  "_requested": {
-    "name": "isomorphic-pkg-reader",
-    "raw": "isomorphic-pkg-reader@1.1.15",
-    "rawSpec": "1.1.15",
-    "scope": null,
-    "spec": "1.1.15",
-    "type": "version"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_shrinkwrap": null,
-  "_spec": "isomorphic-pkg-reader@1.1.15",
-  "_where": "/Users/xyz/Sites/tencent/beta2.0/beta2.0",
+  "version": "1.1.21",
   "author": {
     "name": "xiaoyuze88@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/xiaoyuze88/isomorphic-pkg-reader/issues"
+    "url": "https://github.com/TencentWSRD/isomorphic-pkg-reader/issues"
   },
   "dependencies": {
     "buffer": "^4.6.0",
@@ -70,11 +37,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "directories": {},
-  "dist": {
-    "shasum": "c1e40c355e286eb9338006ff09649b37c7d20b95",
-    "tarball": "https://registry.npmjs.org/isomorphic-pkg-reader/-/isomorphic-pkg-reader-1.1.15.tgz"
-  },
-  "homepage": "https://github.com/xiaoyuze88/isomorphic-pkg-reader#readme",
+  "homepage": "https://github.com/TencentWSRD/isomorphic-pkg-reader#readme",
   "keywords": [
     "Javascript",
     "NodeJS",
@@ -91,15 +54,5 @@
       "email": "xiaoyuze88@gmail.com",
       "name": "xiaoyuze88"
     }
-  ],
-  "name": "isomorphic-pkg-reader",
-  "optionalDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiaoyuze88/isomorphic-pkg-reader.git"
-  },
-  "scripts": {
-    "start": "node ./example/webpack.config.js & node ./example/server"
-  },
-  "version": "1.1.20"
+  ]
 }
