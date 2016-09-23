@@ -1,4 +1,14 @@
 {
+  "name": "@tencent/isomorphic-pkg-reader",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TencentWSRD/isomorphic-pkg-reader.git"
+  },
+  "scripts": {
+    "start": "node ./example/webpack.config.js & node ./example/server"
+  },
+  "version": "1.1.21",
   "author": {
     "name": "xiaoyuze88@gmail.com"
   },
@@ -44,15 +54,5 @@
       "email": "xiaoyuze88@gmail.com",
       "name": "xiaoyuze88"
     }
-  ],
-  "name": "isomorphic-pkg-reader",
-  "optionalDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TencentWSRD/isomorphic-pkg-reader.git"
-  },
-  "scripts": {
-    "start": "node ./example/webpack.config.js & node ./example/server"
-  },
-  "version": "1.1.21"
+  ]
 }
