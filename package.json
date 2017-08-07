@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node ./example/webpack.config.js & node ./example/server"
   },
-  "version": "1.1.22",
+  "version": "1.1.23",
   "author": {
     "name": "xiaoyuze88@gmail.com"
   },
@@ -16,7 +16,7 @@
     "url": "https://github.com/TencentWSRD/isomorphic-pkg-reader/issues"
   },
   "dependencies": {
-    "buffer": "^4.6.0",
+    "buffer": "^5.0.7",
     "bytebuffer": "^5.0.1",
     "inherits": "^2.0.1",
     "isomorphic-png.js": "^0.2.4",
